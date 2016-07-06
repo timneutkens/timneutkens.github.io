@@ -1,0 +1,38 @@
+/* Usually I use SCSS, but this is such a small project it would be overkill. */
+body {
+    display:         flex;
+    flex-direction:  column;            
+    align-items:     center;
+    justify-content: center;
+    
+    background: #2196f3;
+    background: -webkit-linear-gradient(to right, #2196f3 , #f44336);
+    background: linear-gradient(to right, #2196f3 , #f44336);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color:       #ffffff;
+    text-align:  center;       
+}
+
+h1 {
+    font-size: 72px;
+}
+
+p {
+    visibility: hidden;    
+    font-size: 35px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.show {
+    visibility: visible;
+}
