@@ -1,2 +1,2 @@
 # My personal website
-Just a small onepager
+Just a small one-pager
