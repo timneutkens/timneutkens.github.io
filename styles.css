@@ -1,12 +1,10 @@
-/* Usually I use SCSS, but this is such a small project it would be overkill. */
 body {
     display:         flex;
     flex-direction:  column;
     align-items:     center;
     justify-content: center;
-
-    background: #f44336;
-
+    background-color: #F76B1C;
+    background-image: linear-gradient(256deg, #FAD961 0%, #F76B1C 100%);
     font-family: 'Gill Sans MT', sans-serif;
     font-weight: 300;
     color:       #ffffff;
